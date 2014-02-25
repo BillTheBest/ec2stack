@@ -182,14 +182,14 @@
 <p id='t8' class='stm run hide_run'><span class='key'>import</span> <span class='nam'>json</span><span class='strut'>&nbsp;</span></p>
 <p id='t9' class='stm run hide_run'><span class='key'>import</span> <span class='nam'>time</span><span class='strut'>&nbsp;</span></p>
 <p id='t10' class='pln'><span class='strut'>&nbsp;</span></p>
-<p id='t11' class='stm run hide_run'><span class='key'>from</span> <span class='nam'>flask</span> <span class='key'>import</span> <span class='nam'>current_app</span><span class='op'>,</span> <span class='nam'>abort</span><span class='op'>,</span> <span class='nam'>request</span><span class='strut'>&nbsp;</span></p>
+<p id='t11' class='stm run hide_run'><span class='key'>from</span> <span class='nam'>flask</span> <span class='key'>import</span> <span class='nam'>current_app</span><span class='op'>,</span> <span class='nam'>abort</span><span class='strut'>&nbsp;</span></p>
 <p id='t12' class='stm run hide_run'><span class='key'>import</span> <span class='nam'>requests</span><span class='strut'>&nbsp;</span></p>
 <p id='t13' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t14' class='stm run hide_run'><span class='key'>from</span> <span class='nam'>ec2stack</span> <span class='key'>import</span> <span class='nam'>helpers</span><span class='strut'>&nbsp;</span></p>
 <p id='t15' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t16' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t17' class='stm run hide_run'><span class='key'>def</span> <span class='nam'>make_request</span><span class='op'>(</span><span class='nam'>args</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
-<p id='t18' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>args</span><span class='op'>[</span><span class='str'>&#39;apikey&#39;</span><span class='op'>]</span> <span class='op'>=</span> <span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>get</span><span class='op'>(</span><span class='str'>&#39;AWSAccessKeyId&#39;</span><span class='op'>,</span> <span class='nam'>request</span><span class='op'>.</span><span class='nam'>form</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
+<p id='t18' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>args</span><span class='op'>[</span><span class='str'>&#39;apikey&#39;</span><span class='op'>]</span> <span class='op'>=</span> <span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>get</span><span class='op'>(</span><span class='str'>&#39;AWSAccessKeyId&#39;</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
 <p id='t19' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>args</span><span class='op'>[</span><span class='str'>&#39;response&#39;</span><span class='op'>]</span> <span class='op'>=</span> <span class='str'>&#39;json&#39;</span><span class='strut'>&nbsp;</span></p>
 <p id='t20' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t21' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>secretkey</span> <span class='op'>=</span> <span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>get_secretkey</span><span class='op'>(</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>

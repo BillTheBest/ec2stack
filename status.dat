@@ -52,7 +52,7 @@ p24
 I0
 sbssS'hash'
 p25
-S'\x0b\xe7\xfd\x80\xe4\xe8\x00\xe2a\x03G5P\x1b\xd3\xe7'
+S'D\xe2\xc2\xb5\x8b}\x9a\xbcA/\x8bR&OJ`'
 p26
 ssS'ec2stack_providers_cloudstack_instances'
 p27
@@ -86,7 +86,7 @@ I0
 sg24
 I0
 sbssg25
-S'\x97\xe6P\xb0\xcd\xa0\xef\x85&HO#\xf65\xfe\xd4'
+S'\xd7}1)\xd9O\x00F6\x0b\xe8\x8c\xbc V\xd3'
 p34
 ssS'ec2stack_providers_cloudstack'
 p35
@@ -222,7 +222,7 @@ I3
 sg24
 I0
 sbssg25
-S'\x8b\x8b\xf4w\xa6\x8d\xf0a+\xe4\xda\xeb=\\m\xad'
+S'\x86\x82\xcf\x0epO\\Q\xd6p\xed\xc3,O4J'
 p66
 ssS'ec2stack_providers'
 p67
@@ -314,17 +314,17 @@ I1
 sg19
 I0
 sg20
-I144
+I141
 sg21
 I0
 sg22
 I0
 sg23
-I94
+I93
 sg24
 I0
 sbssg25
-S'\x13\x04\xdf\x96\x17\xec\xb3@B\xde<\xf5\xf1\n\x1f_'
+S"\xbcG\x80\x9dVL\xd8\xfa\xbeB.'\x81\xbd\x1fd"
 p90
 ssS'ec2stack_providers_cloudstack_volume'
 p91
@@ -348,7 +348,7 @@ I1
 sg19
 I0
 sg20
-I55
+I54
 sg21
 I0
 sg22
@@ -358,7 +358,7 @@ I32
 sg24
 I0
 sbssg25
-S'7o\xd3\xc4\x03\xe0ks\xf38\xd0y\xaa\x9b\x8a\x19'
+S'N\x87\xc2\xc9f\xad\x14\x90\x94>\xca\x8b\x84\xb4\x1d\x8a'
 p98
 ssS'ec2stack_providers_cloudstack_disk_offerings'
 p99
@@ -426,7 +426,7 @@ I0
 sg24
 I0
 sbssg25
-S'\x08?\xb5=\x9a\xed\xf3[\xb6\xe7\x90\xcb\xee\xb1\x92>'
+S'\xf5V\x9b\rU-\x8b\x8d\xc0\xea\xdf\xa9e\x1bR\xf8'
 p114
 ssS'ec2stack_controllers_default'
 p115
@@ -460,7 +460,7 @@ I0
 sg24
 I0
 sbssg25
-S'\x98E(+l\xc4v\x8a\xdd\xc0\xa5\xc7\x84\xff9\xf1'
+S'\xf5\n\x9c\x9ag\xbb\x99n\x83um\x1b\xaa\xd1m\xee'
 p122
 ssS'ec2stack_models_users_models'
 p123
@@ -552,7 +552,7 @@ I1
 sg19
 I0
 sg20
-I21
+I20
 sg21
 I0
 sg22
@@ -562,7 +562,7 @@ I0
 sg24
 I0
 sbssg25
-S'\\\x060y\x9dD\xdd\x7f\xf4\xe4\r8\xf4\xed\x1e|'
+S"\xe8y/h\xf8\xf6Q\xd3\x9f\xa6a\xc3x\xa7\t'"
 p146
 ssS'ec2stack_errors'
 p147
@@ -620,17 +620,17 @@ I1
 sg19
 I0
 sg20
-I50
+I83
 sg21
 I0
 sg22
 I0
 sg23
-I0
+I28
 sg24
 I0
 sbssg25
-S'\x97\x94L\x88\xf6\x1d\x05\x93\x03\xe2~\xc9\xc2\xb7\xe9.'
+S'\xb8\x98Wx2\xfa\xcf\x8d\x86\x03\xb8\x13~\xa8\xfe\xcf'
 p162
 ssS'ec2stack'
 p163
@@ -697,7 +697,7 @@ I16
 sg24
 I0
 sbssg25
-S'\x90\x8b\xef\x07^uW\xde\x8f\xdc\xa7\xd3\r\xf3\xb9\x18'
+S'\xa9\x816\x08\x17\x15K\x003\x89\x11W\x07\xed+\x0e'
 p177
 sssS'version'
 p178
