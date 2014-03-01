@@ -5,7 +5,7 @@
     
     
     <meta http-equiv='X-UA-Compatible' content='IE=emulateIE7' />
-    <title>Coverage for ec2stack.providers.cloudstack.instances: 56%</title>
+    <title>Coverage for ec2stack.providers.cloudstack.instances: 58%</title>
     <link rel='stylesheet' href='style.css' type='text/css'>
     
     <script type='text/javascript' src='jquery.min.js'></script>
@@ -21,13 +21,13 @@
 <div id='header'>
     <div class='content'>
         <h1>Coverage for <b>ec2stack.providers.cloudstack.instances</b> :
-            <span class='pc_cov'>56%</span>
+            <span class='pc_cov'>58%</span>
         </h1>
         <img id='keyboard_icon' src='keybd_closed.png'>
         <h2 class='stats'>
             52 statements &nbsp;
-            <span class='run hide_run shortkey_r button_toggle_run'>29 run</span>
-            <span class='mis shortkey_m button_toggle_mis'>23 missing</span>
+            <span class='run hide_run shortkey_r button_toggle_run'>30 run</span>
+            <span class='mis shortkey_m button_toggle_mis'>22 missing</span>
             <span class='exc shortkey_x button_toggle_exc'>0 excluded</span>
             
         </h2>
@@ -109,7 +109,7 @@
 <p id='n46' class='stm run hide_run'><a href='#n46'>46</a></p>
 <p id='n47' class='stm run hide_run'><a href='#n47'>47</a></p>
 <p id='n48' class='stm run hide_run'><a href='#n48'>48</a></p>
-<p id='n49' class='stm mis'><a href='#n49'>49</a></p>
+<p id='n49' class='stm run hide_run'><a href='#n49'>49</a></p>
 <p id='n50' class='pln'><a href='#n50'>50</a></p>
 <p id='n51' class='pln'><a href='#n51'>51</a></p>
 <p id='n52' class='pln'><a href='#n52'>52</a></p>
@@ -241,7 +241,7 @@
 <p id='t46' class='stm run hide_run'><span class='key'>def</span> <span class='nam'>_describe_instance_attribute_response</span><span class='op'>(</span><span class='nam'>response</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
 <p id='t47' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>attribute</span> <span class='op'>=</span> <span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>get</span><span class='op'>(</span><span class='str'>&#39;Attribute&#39;</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
 <p id='t48' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>if</span> <span class='nam'>attribute</span> <span class='key'>not</span> <span class='key'>in</span> <span class='nam'>response</span><span class='op'>.</span><span class='nam'>keys</span><span class='op'>(</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
-<p id='t49' class='stm mis'>&nbsp; &nbsp; &nbsp; &nbsp; <span class='nam'>errors</span><span class='op'>.</span><span class='nam'>invalid_paramater_value</span><span class='op'>(</span><span class='strut'>&nbsp;</span></p>
+<p id='t49' class='stm run hide_run'>&nbsp; &nbsp; &nbsp; &nbsp; <span class='nam'>errors</span><span class='op'>.</span><span class='nam'>invalid_paramater_value</span><span class='op'>(</span><span class='strut'>&nbsp;</span></p>
 <p id='t50' class='pln'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class='str'>&#39;The specified attribute is not valid, please specify a valid &#39;</span> <span class='op'>+</span><span class='strut'>&nbsp;</span></p>
 <p id='t51' class='pln'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class='str'>&#39;instance attribute like \&#39;name\&#39; or \&#39;state\&#39;&#39;</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
 <p id='t52' class='pln'><span class='strut'>&nbsp;</span></p>

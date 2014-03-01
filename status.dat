@@ -82,11 +82,11 @@ I0
 sg22
 I0
 sg23
-I23
+I22
 sg24
 I0
 sbssg25
-S'\xaa$\x1b\xb1\xae\xa6?\xd8\x0b\x1f\xfd^\x10:]T'
+S'\xff\xeag|\xeb\xf0M\xdewe2\xa7\x82\x1f\xda\xe7'
 p34
 ssS'ec2stack_providers_cloudstack'
 p35
@@ -490,11 +490,11 @@ I0
 sg22
 I0
 sg23
-I1
+I0
 sg24
 I0
 sbssg25
-S'\xc6\xa9\x95,\xcaq\xaai\xed~=yH$\x8e\xa0'
+S'$\xcf\x03\xcb\xc6\xc0^\xe6\xe8\xac\xfdM.\xf4G\xe0'
 p130
 ssS'ec2stack_controllers_default'
 p131
