@@ -86,7 +86,7 @@ I0
 sg24
 I0
 sbssg25
-S'\xbcb=\x19\x06\xc5A\xda\xbc\x16qU\xf94\xb3\xe3'
+S'x\x06\xf7\xa1\xfb6\xac\xfa\x9f\xef\xf8R\x8f\xfe\xdf\xe6'
 p34
 ssS'ec2stack_providers_cloudstack'
 p35
@@ -150,11 +150,11 @@ I0
 sg22
 I0
 sg23
-I34
+I0
 sg24
 I0
 sbssg25
-S'\xfc\xb5\xd1KZD/\xfdr \xe5\xd5T\x88\xe7\x10'
+S'\xad\xb3ba\xcbms\x0b\x9a\xbb_(\xc0G\xbf5'
 p50
 ssS'ec2stack_models_users'
 p51
@@ -484,7 +484,7 @@ I1
 sg19
 I0
 sg20
-I21
+I22
 sg21
 I0
 sg22
@@ -494,7 +494,7 @@ I0
 sg24
 I0
 sbssg25
-S'$\xcf\x03\xcb\xc6\xc0^\xe6\xe8\xac\xfdM.\xf4G\xe0'
+S'^\x85\x1dA\x9c\x9d\xa8j\xbb\xab\x1f\xba\xf8\x82\xef.'
 p130
 ssS'ec2stack_controllers_default'
 p131
@@ -660,11 +660,11 @@ I0
 sg22
 I0
 sg23
-I2
+I0
 sg24
 I0
 sbssg25
-S'\xdcJ\x05\x13q2\xb71\xb8\x0f\x08\x01\xd0\xf8\xd3\x1d'
+S'v\x07\xd3\x1dK\xee\xfc\xc1\xa0\x1bn%\xa2\x14$\xc7'
 p170
 ssS'ec2stack'
 p171
