@@ -487,15 +487,15 @@
 <p id='t152' class='stm run hide_run'><span class='op'>@</span><span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>authentication_required</span><span class='strut'>&nbsp;</span></p>
 <p id='t153' class='pln'><span class='key'>def</span> <span class='nam'>revoke_security_group_ingress</span><span class='op'>(</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
 <p id='t154' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>rule_type</span> <span class='op'>=</span> <span class='str'>&#39;ingress&#39;</span><span class='strut'>&nbsp;</span></p>
-<p id='t155' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>response</span> <span class='op'>=</span> <span class='nam'>_revoke_security_group_request</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
-<p id='t156' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>return</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>response</span><span class='op'>,</span> <span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
+<p id='t155' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>_revoke_security_group_request</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
+<p id='t156' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>return</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
 <p id='t157' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t158' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t159' class='stm run hide_run'><span class='op'>@</span><span class='nam'>helpers</span><span class='op'>.</span><span class='nam'>authentication_required</span><span class='strut'>&nbsp;</span></p>
 <p id='t160' class='pln'><span class='key'>def</span> <span class='nam'>revoke_security_group_egress</span><span class='op'>(</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
 <p id='t161' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>rule_type</span> <span class='op'>=</span> <span class='str'>&#39;egress&#39;</span><span class='strut'>&nbsp;</span></p>
-<p id='t162' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>response</span> <span class='op'>=</span> <span class='nam'>_revoke_security_group_request</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
-<p id='t163' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>return</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>response</span><span class='op'>,</span> <span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
+<p id='t162' class='stm run hide_run'>&nbsp; &nbsp; <span class='nam'>_revoke_security_group_request</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
+<p id='t163' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>return</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='strut'>&nbsp;</span></p>
 <p id='t164' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t165' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t166' class='stm run hide_run'><span class='key'>def</span> <span class='nam'>_revoke_security_group_request</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
@@ -515,7 +515,7 @@
 <p id='t180' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>return</span> <span class='nam'>response</span><span class='strut'>&nbsp;</span></p>
 <p id='t181' class='pln'><span class='strut'>&nbsp;</span></p>
 <p id='t182' class='pln'><span class='strut'>&nbsp;</span></p>
-<p id='t183' class='stm run hide_run'><span class='key'>def</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>response</span><span class='op'>,</span> <span class='nam'>rule_type</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
+<p id='t183' class='stm run hide_run'><span class='key'>def</span> <span class='nam'>_revoke_security_group_response</span><span class='op'>(</span><span class='nam'>rule_type</span><span class='op'>)</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
 <p id='t184' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>if</span> <span class='nam'>rule_type</span> <span class='op'>==</span> <span class='str'>&#39;ingress&#39;</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
 <p id='t185' class='stm run hide_run'>&nbsp; &nbsp; &nbsp; &nbsp; <span class='nam'>rule_type</span> <span class='op'>=</span> <span class='str'>&#39;RevokeSecurityGroupIngressResponse&#39;</span><span class='strut'>&nbsp;</span></p>
 <p id='t186' class='stm run hide_run'>&nbsp; &nbsp; <span class='key'>elif</span> <span class='nam'>rule_type</span> <span class='op'>==</span> <span class='str'>&#39;egress&#39;</span><span class='op'>:</span><span class='strut'>&nbsp;</span></p>
