@@ -37,7 +37,7 @@ p19
 I0
 sS'n_statements'
 p20
-I116
+I117
 sS'n_excluded'
 p21
 I0
@@ -52,7 +52,7 @@ p24
 I0
 sbssS'hash'
 p25
-S'd\x80\xf1\xd3\xf7\xf9qh=X\x1e\xafb\xe3\xf4\xc5'
+S'@\xa5\xe7\x9bD\x9c\xb4q\x12\xc3\x0ch\xc55\xc8M'
 p26
 ssS'ec2stack_providers_cloudstack_tags'
 p27
@@ -86,7 +86,7 @@ I0
 sg24
 I0
 sbssg25
-S'A\x9e\x8cj\x1cB\x12\x08\xdf\xde\xfd?\xa5iR\x06'
+S'i\x83\xa9\x02\x90\xd2\xe0\xc0\x82\xb5\xae\x97\x84*\xcbB'
 p34
 ssS'ec2stack_providers_cloudstack_instances'
 p35
